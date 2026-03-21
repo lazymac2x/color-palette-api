@@ -1,0 +1,18 @@
+{
+  "name": "color-palette-api",
+  "version": "1.0.0",
+  "description": "Color palette generation API — harmonies, gradients, contrast checking, conversion between HEX/RGB/HSL. WCAG accessibility scoring.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "mcp": "node src/mcp-server.js"
+  },
+  "keywords": ["color", "palette", "design", "css", "hex", "rgb", "hsl", "wcag", "accessibility", "api"],
+  "author": "lazymac2x",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  }
+}
